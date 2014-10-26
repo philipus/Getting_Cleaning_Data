@@ -1,5 +1,8 @@
 ## getting and cleaning course project
 
+# how to use the script
+copy the R script in the main directory of the samsung data. in this directory you can see the test directory and the train directory as well. you need to have installed the package reshape2. it will test if you have a data directory in the main directory. if not the script will create a data directory. in this directory after you will find the tidy_data_set.txt file 
+
 # reading the datas
 from train and test directories with read.csv and sep = " "
 first I set the columns Names while reading the X data but later I realised setting the colums names using colnames(data) <- features
