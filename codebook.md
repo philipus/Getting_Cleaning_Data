@@ -40,7 +40,7 @@ fBodyGyroJerkMag-Measure
 
 # Missing Attributes
 
-The Attribute when you average over the window sample is missing yet
+The Attribute when you average over the window sample is missing because I guess it shouldnt be a part of the tidy data set.
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 gravityMean
