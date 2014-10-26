@@ -10,6 +10,9 @@ first I set the columns Names while reading the X data but later I realised sett
 # reading features
 with the features vector I named the columns of the X data. also I took the feature selection using this vector
 
+# feature selection
+use grepl() in order to apply grep on a list of strings which are the features in this case. use option fixed = TRUE othewise you also get meanfreq() features in your feature selection
+
 # reading labels
 labeled the colums by activity_id and activity itself
 

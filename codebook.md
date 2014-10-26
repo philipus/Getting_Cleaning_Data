@@ -20,33 +20,33 @@ and the mean of the original data
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 '-Measure -' is used to denote mean() and std()
 
-tBodyAcc-Measure-XYZ
-tGravityAcc-Meauser-XYZ
-tBodyAccJerk-Measure-XYZ
-tBodyGyro-Measure-XYZ
-tBodyGyroJerk-Measure-XYZ
-tBodyAccMag-Meausre
-tGravityAccMag-Measure
-tBodyAccJerkMag-Measure
-tBodyGyroMag-Measure
-tBodyGyroJerkMag-Measure
-fBodyAcc-Measure-XYZ
-fBodyAccJerk-Measure-XYZ
-fBodyGyro-Measure-XYZ
-fBodyAccMag-Measure
-fBodyAccJerkMag-Measure
-fBodyGyroMag-Measure
-fBodyGyroJerkMag-Measure
+..* tBodyAcc-Measure-XYZ
+..* tGravityAcc-Meauser-XYZ
+..* tBodyAccJerk-Measure-XYZ
+..* tBodyGyro-Measure-XYZ
+..* tBodyGyroJerk-Measure-XYZ
+..* tBodyAccMag-Meausre
+..* tGravityAccMag-Measure
+..* tBodyAccJerkMag-Measure
+..* tBodyGyroMag-Measure
+..* tBodyGyroJerkMag-Measure
+..* fBodyAcc-Measure-XYZ
+..* fBodyAccJerk-Measure-XYZ
+..* fBodyGyro-Measure-XYZ
+..* fBodyAccMag-Measure
+..* fBodyAccJerkMag-Measure
+..* fBodyGyroMag-Measure
+..* fBodyGyroJerkMag-Measure
 
 # Missing Attributes
 
 The Attribute when you average over the window sample is missing because I guess it shouldnt be a part of the tidy data set.
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+..* gravityMean
+..* tBodyAccMean
+..* tBodyAccJerkMean
+..* tBodyGyroMean
+..* tBodyGyroJerkMean
 
 
