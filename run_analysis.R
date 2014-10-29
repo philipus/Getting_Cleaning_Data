@@ -35,7 +35,7 @@ sub_test <- read.table("./test/subject_test.txt", col.names="subject");
 X_train_test <- rbind(X_train, X_test)
 sub_train_test <- rbind(sub_train, sub_test)
 # 2) Extracts only the measurements on the mean and standard deviation for each measurement.
-features_sel <- as.vector(features[grepl("std()", features$V2) | grepl("mean()", features$V2),2])
+features_sel <- as.vector(features[grepl("std()", features$V2, fixed=TRUE) | grepl("mean()", features$V2, fixed=TRUE),2])
 X_train_test_part <- X_train_test[,features_sel]
 # 3) Uses descriptive activity names to name the activities in the data set
 Y_train_label <- merge(Y_train, activity_labels, by="activity_id", all=TRUE)
